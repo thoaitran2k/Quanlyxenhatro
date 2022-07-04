@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mobile.thoaitran.quan_ly_xe_nha_tro.ui.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        android:background="@drawable/c">
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnquet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@android:color/darker_gray"
+            android:text="QUÉT BIỂN SỐ"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="30dp"
+            android:textStyle="bold|italic"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="103dp" />
+
+        <Button
+            android:id="@+id/btnnhap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@android:color/darker_gray"
+            android:text="TRA CỨU"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="30dp"
+            android:textStyle="bold|italic"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="167dp" />
+
+        <Button
+            android:id="@+id/btnds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@android:color/darker_gray"
+            android:text="DANH SÁCH XE"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="30dp"
+            android:textStyle="bold|italic"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="167dp" />
+
+        <Button
+            android:id="@+id/btnthoat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@android:color/darker_gray"
+            android:text="THOÁT"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="30dp"
+            android:textStyle="bold|italic"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="230dp" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

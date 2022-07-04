@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mobile.thoaitran.quan_ly_xe_nha_tro.chucnang.edit">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/e"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+
+            <ImageView
+                android:id="@+id/imgHinh1"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btnChon"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:textSize="22dp"
+                    android:text="Chọn" />
+
+                <Button
+                    android:id="@+id/btnChup"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:textSize="22dp"
+                    android:text="Chụp" />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtid1"
+                    android:layout_width="114dp"
+                    android:layout_height="wrap_content"
+                    android:text="Số Phòng: "
+                    android:textAlignment="textEnd"
+                    android:textSize="20dp" />
+                <EditText
+                    android:id="@+id/editSP"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:ems="10"
+                    android:textColor="#d50000"
+                    android:inputType="textPersonName"
+                    android:hint="1~10 ký tự"
+                    />
+                </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtid2"
+                    android:layout_width="114dp"
+                    android:layout_height="wrap_content"
+                    android:text="Tên: "
+                    android:textAlignment="textEnd"
+                    android:textSize="20dp" />
+            <EditText
+                android:id="@+id/editTen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:textColor="#d50000"
+                android:textSize="20dp"
+                android:inputType="textPersonName"
+                android:hint="1~50 ký tự"
+                />
+                </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtid3"
+                    android:layout_width="114dp"
+                    android:layout_height="wrap_content"
+                    android:text="Biển số: "
+                    android:textAlignment="textEnd"
+                    android:textSize="20dp" />
+            <EditText
+                android:id="@+id/editBS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#d50000"
+                android:ems="10"
+                android:textSize="20dp"
+                android:inputType="textPersonName"
+                android:hint="VD:69-F1015.99 || 65-B19999" />
+                </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtid4"
+                    android:layout_width="114dp"
+                    android:layout_height="wrap_content"
+                    android:text="SĐT: "
+                    android:textAlignment="textEnd"
+                    android:textSize="20dp" />
+            <EditText
+                android:id="@+id/editSDT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#d50000"
+                android:ems="10"
+                android:textSize="20dp"
+                android:inputType="textPersonName"
+                android:hint="10~14 ký tự"
+                />
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtid5"
+                    android:layout_width="114dp"
+                    android:layout_height="wrap_content"
+                    android:text="Đặc điểm: "
+                    android:textAlignment="textEnd"
+                    android:textSize="20dp" />
+            <EditText
+                android:id="@+id/editDD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#d50000"
+                android:ems="10"
+                android:textSize="20dp"
+                android:inputType="textPersonName"
+                android:hint="1~200 ký tự"
+                />
+                </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnLuu"
+                android:layout_width="180dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="5dp"
+                android:text="LƯU"
+                android:textSize="20dp"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="0dp"/>
+
+            <Button
+                android:id="@+id/btnHuy"
+                android:layout_width="180dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:text="HỦY"
+                android:textSize="20dp"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

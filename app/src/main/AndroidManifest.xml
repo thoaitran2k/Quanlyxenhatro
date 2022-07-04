@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mobile.thoaitran.quan_ly_xe_nha_tro">
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/iconapp"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/iconapp"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="mobile.thoaitran.quan_ly_xe_nha_tro.ui.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="mobile.thoaitran.quan_ly_xe_nha_tro.chucnang.edit" />
+        <activity android:name="mobile.thoaitran.quan_ly_xe_nha_tro.chucnang.Add" />
+        <activity android:name="mobile.thoaitran.quan_ly_xe_nha_tro.ui.DSXe">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="mobile.thoaitran.quan_ly_xe_nha_tro.ui.TTXe"
+            android:label="@string/title_activity_main5"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="mobile.thoaitran.quan_ly_xe_nha_tro.chucnang.Tra"
+            android:label="@string/title_activity_tra"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="mobile.thoaitran.quan_ly_xe_nha_tro.chucnang.Quet"></activity>
+        <meta-data android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="ocr"/>
+
+    </application>
+
+</manifest>

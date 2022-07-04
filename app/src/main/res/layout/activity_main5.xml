@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mobile.thoaitran.quan_ly_xe_nha_tro.ui.TTXe">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:background="@drawable/i">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+
+            <ImageView
+                android:id="@+id/imgHinh2"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginLeft="80dp"
+                app:srcCompat="@mipmap/ic_launcher" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <TextView
+                android:id="@+id/txtid1"
+                android:layout_width="114dp"
+                android:layout_height="wrap_content"
+                android:text="Số Phòng: "
+                android:textAlignment="textEnd"
+                android:textColor="#2962ff"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/editSP2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="#d50000"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <TextView
+                android:id="@+id/txtid2"
+                android:layout_width="114dp"
+                android:layout_height="wrap_content"
+                android:text="Tên: "
+                android:textAlignment="textEnd"
+                android:textColor="#2962ff"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/editTen2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=" "
+                android:textColor="#d50000"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <TextView
+                android:id="@+id/txtid3"
+                android:layout_width="114dp"
+                android:layout_height="wrap_content"
+                android:text="Biển số: "
+                android:textAlignment="textEnd"
+                android:textColor="#2962ff"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/editBS2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="#d50000"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <TextView
+                android:id="@+id/txtid4"
+                android:layout_width="114dp"
+                android:layout_height="wrap_content"
+                android:text="SĐT: "
+                android:textAlignment="textEnd"
+                android:textColor="#2962ff"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/editSDT2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="#d50000"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <TextView
+                android:id="@+id/txtid5"
+                android:layout_width="114dp"
+                android:layout_height="wrap_content"
+                android:text="Đặc điểm: "
+                android:textAlignment="textEnd"
+                android:textColor="#2962ff"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/editDD2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="#d50000"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
